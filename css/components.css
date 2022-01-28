@@ -1,0 +1,26 @@
+@import url('../component/Alert/alert.css');
+@import url('../component/Badges/badge.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#22c55e;
+    --secondary-color:#bbf7d0;
+    --notification-color:#f97316;
+    --offgreen:#f0fdf4;
+    --darkerofseconadary:#86efac;
+    font-size: 62.5%;
+    --alert-primary-color:#2563eb;
+    --alert-success-color:rgb(13, 224, 31);
+    --alert-error-color:rgb(231, 34, 34);
+    --alert-warning-color:rgb(248, 203, 3);
+    --white-color:white;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+}

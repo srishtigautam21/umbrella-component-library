@@ -1,0 +1,64 @@
+.header{
+    margin:2rem 2rem;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex-items{
+    display: flex;
+}
+.badge-wrapper{
+    position:relative;
+    margin:2rem 2rem;
+} 
+.badge{
+    width:2rem;
+    height:2rem;
+    border-radius:50%;
+    background-color:var(--notification-color);
+    color:white;
+    text-align:center;
+    font-size:small;
+    position:absolute;
+    padding-top:3px;
+}
+.txt-badge{
+    right:-12px;
+    bottom:7px;
+}
+.icon{
+    left:3rem; bottom:2.5rem;
+}
+.facebook-icon{
+    padding-top: 4px;
+    width:2.5rem;
+    height:2.5rem;
+    left:3rem; 
+    bottom:2.5rem;
+}
+.avatar-circle{
+    width:5rem;
+    height:5rem;
+    border-radius: 50%;
+}
+.status-badge{
+    position:absolute;
+    width:13px;
+    height:13px;
+    border-radius: 50%;
+    left:3.7rem;
+    bottom:5px;
+    border:2px solid white;
+}
+.status-badge-online{
+    background-color: green;
+}
+.status-badge-offline{
+    background-color: gray;
+}
+.status-badge-dnd{
+    background-color: red;
+}

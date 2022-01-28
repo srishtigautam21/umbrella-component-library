@@ -1,0 +1,26 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.alert{
+    color:var(--white-color);
+    padding: 1.5rem 0rem 1.5rem 1.5rem;
+    border-radius: 5px;
+    max-width:45vw;
+    width:100%;
+    margin:2rem 2rem;
+}
+.primary-alert{
+    background-color: var(--alert-primary-color);
+}
+.success-alert{
+    background-color:var(--alert-success-color) ;
+}
+.error-alert{
+    background-color:var(--alert-error-color) ;
+}
+.warning-alert{
+    background-color:var(--alert-warning-color);
+}
