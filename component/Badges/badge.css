@@ -32,6 +32,12 @@
 .icon{
     left:3rem; bottom:2.5rem;
 }
+.icon-fontsize{
+    font-size:40px;
+}
+.icon-color{
+    color:var(--alert-primary-color);
+}
 .facebook-icon{
     padding-top: 4px;
     width:2.5rem;
@@ -40,14 +46,14 @@
     bottom:2.5rem;
 }
 .avatar-circle{
-    width:5rem;
-    height:5rem;
+    width:4.7rem;
+    height:4.7rem;
     border-radius: 50%;
 }
 .status-badge{
     position:absolute;
-    width:13px;
-    height:13px;
+    width:14px;
+    height:14px;
     border-radius: 50%;
     left:3.7rem;
     bottom:5px;

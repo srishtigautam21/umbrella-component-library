@@ -12,6 +12,10 @@
     width:100%;
     margin:2rem 2rem;
 }
+.fontawesome-color-size{
+    font-size:2rem;
+    color:var(--white-color);
+}
 .primary-alert{
     background-color: var(--alert-primary-color);
 }
