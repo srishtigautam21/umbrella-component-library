@@ -2,12 +2,12 @@
     background-color:var(--primary-color);
     color:var(--white-color);
     border-radius:3px;
-    border:0px solid var(--white-color);
+    border:none;
     font-size: 1.8rem;
     font-weight: 400;
     margin:2rem 2rem;
-    width:5rem;
-    height:3rem;
+    width:14rem;
+    height:4rem;
 }
 .button:hover{
     cursor:pointer;
@@ -35,7 +35,7 @@
     font-size: 2.5rem;
     font-weight: 400;
     color:var(--black);
-    border:0px solid var(--white-color);
+    border:none;
     background-color: transparent;
 }
 .text-link:hover{
