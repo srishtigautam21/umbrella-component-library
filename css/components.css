@@ -13,15 +13,15 @@
     --notification-color:#f97316;
     --offgreen:#f0fdf4;
     --darkerofseconadary:#86efac;
-    --box-shadow:gray;
+    --box-shadow:rgb(128, 128, 128);
     --alert-primary-color:#2563eb;
     --alert-success-color:rgb(13, 224, 31);
     --alert-error-color:rgb(231, 34, 34);
     --alert-warning-color:rgb(248, 203, 3);
-    --white-color:white;
+    --white-color:rgb(255, 255, 255);
     --link:#3b82f6;
     --link-hover:#2563eb;
-    --black:black;
+    --black:rgb(0, 0, 0);
     font-size: 62.5%;
 }
 body{
