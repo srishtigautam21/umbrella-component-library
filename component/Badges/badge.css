@@ -1,12 +1,4 @@
-.header{
-    margin:2rem 2rem;
-}
-.main-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 .flex-items{
     display: flex;
 }
