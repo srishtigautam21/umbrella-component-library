@@ -1,0 +1,94 @@
+/* CSS for nav-bar */
+.navigation{
+    padding:2rem 1rem;
+    box-shadow: 2px 0px 8px var(--box-shadow); 
+    box-sizing: border-box;
+}
+.nav-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iconify--icon-park-outline{
+    color:var(--notification-color);
+}
+.nav-pills{
+    text-align: right;;
+}
+.nav-brand{
+    font-weight: 800;
+    font-size: 4rem;
+    color:var(--primary-color);
+    text-shadow: 0px 5px 5px var(--box-shadow);
+}
+.nav-bold-link{
+    font-weight: 700;
+    font-size: 1.7rem;
+    color:var(--social-icon-color);
+}
+.nav-bold-link:hover{
+    cursor:pointer;
+    color:var(--primary-color);
+}
+.link{
+    text-decoration: none;
+    padding:2.5px 1rem;
+}
+.link:hover{
+    cursor:pointer;
+}
+.list-non-bullet{
+    list-style:none;
+}
+.list-item-inline{
+    display:inline;
+    padding:5px 5px;
+}
+.social-icons{
+    font-size:2.6rem;
+    color:var(--social-icon-color);
+}
+.social-icons:hover{
+    cursor:pointer;
+    color:var(--primary-color);
+}
+/* CSS for all headings and content alignment */
+.header{
+    margin:2rem 2rem;
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* CSS for sidebar */
+.side-bar{
+    height: 100%;
+    width:24.8rem;
+    overflow-x: hidden;
+    padding-top: 2rem;
+    border-right: 1px solid var(--social-icon-color);
+}
+.sidebar-heading{
+    padding:2rem 1rem 0rem 4rem; 
+}
+.sidebar-subheading{
+    padding:2rem 1rem 1rem 4rem;
+    text-decoration: none;
+    font-size:2rem;
+    font-weight: bold;
+    display:block;
+    color:var(--social-icon-color);
+    scroll-behavior: auto;
+}
+.sidebar-subheading:hover{
+    cursor: pointer;
+    color:var(--primary-color);
+    font-size:2.2rem ;
+}
+/* CSS for main container */
+.main-container{
+    display:flex;
+    flex-wrap: wrap;
+}

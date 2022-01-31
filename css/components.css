@@ -5,15 +5,19 @@
 @import url('../component/Badges/badge.css');
 @import url('../component/Avatar/avatar.css');
 @import url('../component/Buttons/button.css');
+@import url('../css/style.css');
 
 :root{
-    --primary-color:#22c55e;
+    /* --primary-color:#22c55e; */
+    --primary-color:#16a34a;
     --secondary-color:#bbf7d0;
-    --primary-hover:#16a34a;
+    /* --primary-hover:#16a34a; */
+    --social-icon-color:#475569;
+    --primary-hover:#15803d;
     --notification-color:#f97316;
     --offgreen:#f0fdf4;
     --darkerofseconadary:#86efac;
-    --box-shadow:rgb(128, 128, 128);
+    --box-shadow:rgb(199, 194, 194);
     --alert-primary-color:#2563eb;
     --alert-success-color:rgb(13, 224, 31);
     --alert-error-color:rgb(231, 34, 34);
