@@ -1,7 +1,7 @@
 /* CSS for nav-bar */
 .navigation{
     padding:2rem 1rem;
-    box-shadow: 2px 0px 8px var(--box-shadow); 
+    box-shadow: 2px 0px 8px var(--BOX-SHADOW); 
     box-sizing: border-box;
 }
 .nav-container{
@@ -10,7 +10,7 @@
     justify-content: space-between;
 }
 .iconify--icon-park-outline{
-    color:var(--notification-color);
+    color:var(--NOTIFICATION-COLOR);
 }
 .nav-pills{
     text-align: right;;
@@ -18,17 +18,17 @@
 .nav-brand{
     font-weight: 800;
     font-size: 4rem;
-    color:var(--primary-color);
-    text-shadow: 0px 5px 5px var(--box-shadow);
+    color:var(--COLOR-PRIMARY);
+    text-shadow: 0px 5px 5px var(--BOX-SHADOW);
 }
 .nav-bold-link{
     font-weight: 700;
     font-size: 1.7rem;
-    color:var(--social-icon-color);
+    color:var(--COLOR-SOCIAL-ICON);
 }
 .nav-bold-link:hover{
     cursor:pointer;
-    color:var(--primary-color);
+    color:var(--COLOR-PRIMARY);
 }
 .link{
     text-decoration: none;
@@ -46,11 +46,11 @@
 }
 .social-icons{
     font-size:2.6rem;
-    color:var(--social-icon-color);
+    color:var(--COLOR-SOCIAL-ICON);
 }
 .social-icons:hover{
     cursor:pointer;
-    color:var(--primary-color);
+    color:var(--COLOR-PRIMARY);
 }
 /* CSS for all headings and content alignment */
 .header{
@@ -68,7 +68,7 @@
     width:24.8rem;
     overflow-x: hidden;
     padding-top: 2rem;
-    border-right: 1px solid var(--social-icon-color);
+    border-right: 1px solid var(--COLOR-SOCIAL-ICON);
 }
 .sidebar-heading{
     padding:2rem 1rem 0rem 4rem; 
@@ -79,13 +79,15 @@
     font-size:2rem;
     font-weight: bold;
     display:block;
-    color:var(--social-icon-color);
+    color:var(--COLOR-SOCIAL-ICON);
     scroll-behavior: auto;
 }
 .sidebar-subheading:hover{
     cursor: pointer;
-    color:var(--primary-color);
-    font-size:2.2rem ;
+    text-decoration: underline;
+}
+.sidebar-link-active{
+    color:var(--COLOR-PRIMARY);
 }
 /* CSS for main container */
 .main-container{

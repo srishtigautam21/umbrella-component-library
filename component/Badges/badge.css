@@ -10,8 +10,8 @@
     width:2rem;
     height:2rem;
     border-radius:50%;
-    background-color:var(--notification-color);
-    color:white;
+    background-color:var(--NOTIFICATION-COLOR);
+    color:var(--COLOR-WHITE);
     text-align:center;
     font-size:small;
     position:absolute;
@@ -28,7 +28,7 @@
     font-size:40px;
 }
 .icon-color{
-    color:var(--alert-primary-color);
+    color:var(--ALERT-PRIMARY-COLOR);
 }
 .facebook-icon{
     padding-top: 4px;
@@ -49,14 +49,14 @@
     border-radius: 50%;
     left:3.7rem;
     bottom:5px;
-    border:2px solid white;
+    border:2px solid var(--COLOR-WHITE);
 }
 .status-badge-online{
-    background-color: green;
+    background-color: var(--ONLINE-BADGE);
 }
 .status-badge-offline{
-    background-color: gray;
+    background-color: var(--OFFLINE-BADGE);
 }
 .status-badge-dnd{
-    background-color: red;
+    background-color: var(--DND-BADGE);
 }
