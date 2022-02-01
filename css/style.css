@@ -84,8 +84,12 @@
 }
 .sidebar-subheading:hover{
     cursor: pointer;
+    text-decoration: underline;
+    /* color:var(--primary-color); */
+    /* font-size:2.2rem ; */
+}
+.sidebar-link-active{
     color:var(--primary-color);
-    font-size:2.2rem ;
 }
 /* CSS for main container */
 .main-container{

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card-UI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+    <nav class="navigation nav-container">
+        <div class="nav-brand"><img src="../../Assets/Images/logo.svg" alt="logo">
+             Star UI</div> 
+       <ul class="list-non-bullets nav-pills">
+           <li class="list-item-inline">
+               <a class="link nav-bold-link" href="index.html">Home</a> 
+           </li>
+           <li class="list-item-inline">
+               <a class="link nav-bold-link" href="#">Documentation</a> 
+           </li>
+            <li class="list-item-inline">
+               <a class="link" href="https://github.com/srishtigautam21">
+                   <i class="fa fa-github social-icons"></i></a>
+            </li>
+            <li class="list-item-inline" >
+                <a class="link" href="https://www.linkedin.com/in/srishti-gautam-385861190/">
+                    <i class="fa fa-linkedin-square social-icons"></i></a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/SrishtiGautam99">
+                    <i class="fa fa-twitter social-icons"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <main class="main-container">
+        <div class="side-bar">
+            <h2 class="sidebar-heading">Components</h2>
+            <a class="sidebar-subheading" href="../../docs.html">Buttons</a>
+            <a class="sidebar-subheading" href="/component/Badges/badge.html">Badges</a>
+            <a class="sidebar-subheading" href="/component/Alert/alert.html">Alert</a>
+            <a class="sidebar-subheading" href="/component/Avatar/avatar.html">Avatar</a>
+            <a class="sidebar-subheading sidebar-link-active" href="/component/Cards/card.html">Cards</a>
+            <a class="sidebar-subheading" href="#">Images</a>
+            <a class="sidebar-subheading" href="#">Input</a>
+        </div>
+        <section class="content-container">
+            <h2>Vertical Card with badges & dismiss</h2>
+            <div class="vertical-cards">
+                <div class="card-container">
+                    <div class="parent-positioning">
+                        <img src="../../Assets/Images/card-photo1.jpg" alt="card-image">
+                        <div class="inside-container ">
+                            <h3 class="child-positioning">Off White Poncho</h3>
+                            <span class="card-content child-positioning">Women's apparel</span>
+                            <p class="cost">Rs.799</p>
+                            <button class="button card-button">Add to Cart</button>
+                            <span class="badge-overlay">New</span>
+                            <i class="fa fa-heart-o icon-btn icon-size icon-overlay"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="parent-positioning">
+                        <img src="../../Assets/Images/card-photo1.jpg" alt="card-image">
+                        <div class="inside-container ">
+                            <h3 class="child-positioning">Off White Poncho</h3>
+                            <span class="card-content child-positioning">Women's apparel</span>
+                            <p class="cost">Rs.799</p>
+                            <button class="button card-button">Add to Cart</button>
+                            <span class="badge-overlay">New</span>
+                            <i class="fa fa-close icon-size cross-overlay"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="parent-positioning image-with-margin">
+                        <img src="../../Assets/Images/card-photo1.jpg" alt="card-image">
+                        <div class="inside-container ">
+                            <h3 class="child-positioning">Off White Poncho</h3>
+                            <span class="card-content child-positioning">Women's apparel</span>
+                            <p class="cost">Rs.799</p>
+                            <button class="button card-button">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2>Card with text overlay</h2>
+            <div class="card-container text-overlay-card">
+                <div class="parent-positioning">
+                    <img src="../../Assets/Images/card-photo1.jpg" alt="card-image">
+                    <div class="inside-container ">
+                        <h3 class="child-positioning">Off White Poncho</h3>
+                        <span class="card-content child-positioning">Women's apparel</span>
+                        <p class="cost">Rs.799</p>
+                        <button class="button card-button button-disable">Add to Cart</button>
+                        <span class="badge-overlay">New</span>
+                        <span class="overlay-text">Out of Stock</span>
+                        <i class="fa fa-heart-o icon-btn icon-size icon-overlay button-disable"></i>
+                    </div>
+                </div>
+            </div>
+            <h2>Text only card</h2>
+            <div class="text-only-card">
+                <div class="parent-positioning">
+                    <div class="inside-container ">
+                        <i class="fa fa-close icon-size text-card-cross"></i>
+                        <i class="fa fa-heart-o icon-btn icon-size text-card-heart"></i>
+                        <h3 class="quote">“The purpose of our lives is to be happy.”</h3>
+                        <span class="card-content"> — Dalai Lama</span>
+                    </div>
+                </div>
+            </div>
+            <h2>Card with shadow</h2>
+            <div class="card-container card-shadow">
+                <div class="parent-positioning">
+                    <img src="../../Assets/Images/card-photo1.jpg" alt="card-image">
+                    <div class="inside-container ">
+                        <h3 class="child-positioning">Off White Poncho</h3>
+                        <span class="card-content child-positioning">Women's apparel</span>
+                        <p class="cost">Rs.799</p>
+                        <button class="button card-button">Add to Cart</button>
+                        <span class="badge-overlay">New</span>
+                        <i class="fa fa-heart-o icon-btn icon-size icon-overlay"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+            
+
+
+        </section>
+
+    </main>
