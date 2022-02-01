@@ -5,7 +5,7 @@
     align-items: center;
 } */
 .alert{
-    color:var(--white-color);
+    color:var(--COLOR-WHITE);
     padding: 1.5rem 0rem 1.5rem 1.5rem;
     border-radius: 5px;
     max-width:45vw;
@@ -14,17 +14,17 @@
 }
 .fontawesome-color-size{
     font-size:2rem;
-    color:var(--white-color);
+    color:var(--COLOR-WHITE);
 }
 .primary-alert{
-    background-color: var(--alert-primary-color);
+    background-color: var(--ALERT-PRIMARY-COLOR);
 }
 .success-alert{
-    background-color:var(--alert-success-color) ;
+    background-color:var(--ALERT-SUCCESS-COLOR) ;
 }
 .error-alert{
-    background-color:var(--alert-error-color) ;
+    background-color:var(--ALERT-ERROR-COLOR) ;
 }
 .warning-alert{
-    background-color:var(--alert-warning-color);
+    background-color:var(--ALERT-WARNING-COLOR);
 }

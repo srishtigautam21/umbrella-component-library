@@ -15,7 +15,7 @@
     max-width:27rem;
     margin:0 auto;
     margin-top:6rem;
-    background-color:var(--white-color);
+    background-color:var(--COLOR-WHITE);
     box-shadow: 0px 3px 10px lightgray ;
 }
 .inside-container{
@@ -39,7 +39,7 @@
     position: absolute;
     top:1rem;
     right:5px;
-    background-color: var(--white-color);
+    background-color: var(--COLOR-WHITE);
     height:2.5rem;
     width:2.7rem;
     border-radius: 50%;
@@ -47,9 +47,9 @@
 }
 .icon-overlay:hover{
     cursor: pointer;
-    color:var(--alert-error-color);
+    color:var(--ALERT-ERROR-COLOR);
 }
-.cost{
+.card-item-cost{
     font-weight: bold;
     font-size: 1.8rem;
 }
@@ -57,8 +57,8 @@
     position: absolute;
     top:1rem;
     left: 0rem;
-    background-color: var(--primary-color); 
-    color:var(--white-color);
+    background-color: var(--COLOR-PRIMARY); 
+    color:var(--COLOR-WHITE);
     padding:0 2px 0 2px;
     border-radius: 0 4px 4px 0;
 }
@@ -66,7 +66,7 @@
     position: absolute;
     top:1rem;
     right:1rem;
-    color:var(--social-icon-color);
+    color:var(--COLOR-SOCIAL-ICON);
     cursor: pointer;
 }
 .image-with-margin img{
@@ -82,8 +82,8 @@
     position: absolute;
     top:10rem;
     left: 3rem;
-    background-color: var(--social-icon-color); 
-    color:var(--white-color);
+    background-color: var(--COLOR-SOCIAL-ICON); 
+    color:var(--COLOR-WHITE);
     padding:1rem 1rem 1rem 1rem;
     border-radius: 4px;
 }
@@ -110,5 +110,5 @@
     font-style: italic;
 }
 .card-shadow{
-    box-shadow: 0px 5px 2rem 2px var(--box-shadow);
+    box-shadow: 0px 5px 2rem 2px var(--BOX-SHADOW);
 }
