@@ -6,6 +6,8 @@
 @import url('../component/Avatar/avatar.css');
 @import url('../component/Buttons/button.css');
 @import url('../component/Cards/card.css');
+@import url('../component/Image/image.css');
+@import url('../css/landingPage.css');
 @import url('../css/style.css');
 
 :root{
