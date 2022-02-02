@@ -42,19 +42,28 @@
     color:var(--LINK-HOVER);
     cursor:pointer;
 }
-.iconify--ph:hover{
-     cursor: pointer;
-     color: var(--PRIMARY-HOVER);
+.shopping-cart-icon{
+     color:var(--COLOR-PRIMARY);
+     font-size: 3.6rem;
 }
-.iconify--mdi:hover{
+.shopping-cart-icon:hover{
     cursor: pointer;
+    color:var(--PRIMARY-HOVER);
+}
+.trash-icon{
+    color:var(--COLOR-SOCIAL-ICON);
+    font-size: 3.4rem;
+}
+.trash-icon:hover{
+    cursor:pointer;
     color:var(--ALERT-ERROR-COLOR);
 }
 .floating{
-    color:var(--COLOR-PRIMARY);  
+    color:var(--COLOR-PRIMARY);
+    font-size: 4.5rem;
+    background-color: transparent;
 }
 .floating:hover{
     color:var(--PRIMARY-HOVER);
-    cursor: pointer;
-    box-shadow: 3px 0px 5px 0px var(--BOX-SHADOW);
+    cursor: pointer;  
 }

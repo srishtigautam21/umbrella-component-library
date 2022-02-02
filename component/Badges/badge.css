@@ -26,6 +26,7 @@
 }
 .icon-fontsize{
     font-size:40px;
+    cursor: pointer;
 }
 .icon-color{
     color:var(--ALERT-PRIMARY-COLOR);
@@ -41,6 +42,7 @@
     width:4.7rem;
     height:4.7rem;
     border-radius: 50%;
+    cursor: pointer;
 }
 .status-badge{
     position:absolute;

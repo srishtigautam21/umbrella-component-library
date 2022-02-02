@@ -2,12 +2,17 @@
 .navigation{
     padding:2rem 1rem;
     box-shadow: 2px 0px 8px var(--BOX-SHADOW); 
-    box-sizing: border-box;
+    /* box-sizing: border-box; */ 
 }
 .nav-container{
     display:flex;
     align-items: center;
     justify-content: space-between;
+    /* position:fixed;
+    width:100%;
+    top:0;
+    z-index:3;
+    background-color: white; */
 }
 .iconify--icon-park-outline{
     color:var(--NOTIFICATION-COLOR);
@@ -61,6 +66,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* margin:5rem 5rem 5rem 30rem; */
 }
 /* CSS for sidebar */
 .side-bar{
@@ -69,6 +75,9 @@
     overflow-x: hidden;
     padding-top: 2rem;
     border-right: 1px solid var(--COLOR-SOCIAL-ICON);
+    /* position: fixed;
+    left:0;
+    top:8.8rem; */
 }
 .sidebar-heading{
     padding:2rem 1rem 0rem 4rem; 
@@ -93,4 +102,6 @@
 .main-container{
     display:flex;
     flex-wrap: wrap;
+    /* margin-left:30rem;
+    margin-top: 12rem; */
 }

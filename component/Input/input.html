@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alert-UI</title>
-    <link rel="stylesheet" href="/css/components.css">
+    <title>Text-UI</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/components.css">
 </head>
 <body>
     <nav class="navigation nav-container">
@@ -40,24 +40,31 @@
             <h2 class="sidebar-heading">Components</h2>
             <a class="sidebar-subheading" href="/component/Buttons/button.html">Buttons</a>
             <a class="sidebar-subheading" href="/component/Badges/badge.html">Badges</a>
-            <a class="sidebar-subheading sidebar-link-active" href="/component/Alert/alert.html">Alert</a>
+            <a class="sidebar-subheading" href="/component/Alert/alert.html">Alert</a>
             <a class="sidebar-subheading" href="/component/Avatar/avatar.html">Avatar</a>
             <a class="sidebar-subheading" href="/component/Cards/card.html">Cards</a>
             <a class="sidebar-subheading" href="/component/Image/image.html">Images</a>
-            <a class="sidebar-subheading" href="/component/Input/input.html">Input</a>
+            <a class="sidebar-subheading sidebar-link-active" href="/component/Input/input.html">Input</a>
         </div>
         <section class="content-container">
-            <div class="alert primary-alert">
-                <p><strong>Primary!  </strong>This is a Primary Alert - Check it now!</p></div>
-            <div class="alert success-alert"><p><i class="fa fa-check-square-o fontawesome-color-size"></i>
-               <strong>Success!  </strong>This is a Success Alert - Check it now!</p></div>
-            <div class="alert error-alert"><p><i class="fa fa-exclamation-circle fontawesome-color-size"></i>
-                <strong>Error!  </strong>This is a Error Alert - Check it now!</p></div>
-            <div class="alert warning-alert"><p><i class="fa fa-exclamation-triangle fontawesome-color-size"></i>
-                <strong>Warning!  </strong>This is a warning Alert - Check it now!</p></div>
+            <h2>Text area</h2>
+            <div class="text-area-container">
+                <textarea class="textarea-text" placeholder="Enter your message"></textarea>
+                <button class="button form-textarea-btn">Send</button>
+            </div>
+            <h2>Validation form</h2>
+            <form class="input-form">
+                <label for="email-input" class="label-font-size">Enter your email</label>
+                <input type="text" placeholder="example@xyz.com" class="form-input-box">
+                <label for="password" class="label-font-size">Enter your password</label>
+                <input type="password" class="form-input-box">
+                <button class="button form-textarea-btn form-btn">Login</button>
+            </form>
+
+
         </section>
-    </main>
-    
+
+
     
 </body>
 </html>

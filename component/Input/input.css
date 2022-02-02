@@ -1,0 +1,37 @@
+.text-area-container{
+    max-width:40rem ;
+    height:22rem;
+    border:1px solid var(--COLOR-BLACK);
+    padding:1.5rem 0 0 2.5rem;
+
+}
+.textarea-text{
+    width:35rem;
+    height:15rem;
+    padding:1rem 0 0 8px;
+}
+.form-textarea-btn{
+    width:7rem;
+    height:3rem;
+    border-radius: 2rem;
+    margin:1rem 1rem 1rem 28rem;
+}
+.input-form{
+    display:flex;
+    flex-direction: column;
+    width:40rem ;
+    height:22rem;
+    border:1px solid var(--COLOR-BLACK);
+    padding:1.5rem 1rem 0 2rem;
+}
+.label-font-size{
+    font-weight:bold;
+}
+.form-input-box{
+    margin:1rem 1rem 1rem 0;
+    height:3rem;
+}
+.form-btn{
+    width:10rem;
+    margin:1rem 12rem 1rem 12rem;
+}
