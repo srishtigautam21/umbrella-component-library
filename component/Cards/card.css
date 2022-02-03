@@ -12,7 +12,7 @@
 .card-container{
     display:flex;
     flex-wrap:wrap;
-    max-width:27rem;
+    max-width:30rem;
     margin:0 auto;
     margin-top:6rem;
     background-color:var(--COLOR-WHITE);
