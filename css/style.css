@@ -64,9 +64,12 @@
 .content-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     /* margin:5rem 5rem 5rem 30rem; */
+}
+.content-wrapper{
+    margin:4rem;
 }
 /* CSS for sidebar */
 .side-bar{
