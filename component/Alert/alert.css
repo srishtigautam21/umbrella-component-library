@@ -1,9 +1,4 @@
-/* .main-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
+
 .alert{
     color:var(--COLOR-WHITE);
     padding: 1.5rem 0rem 1.5rem 1.5rem;

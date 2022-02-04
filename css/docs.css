@@ -3,12 +3,10 @@
     font-weight: 900;
     line-height: 6.4rem;
     letter-spacing: 1px;
-    /* text-align: left; */
     color:var(--COLOR-BLACK);
     margin-bottom:1rem;
 }
 .md-text{
-    /* font-size: rem; */
     font-weight: 600;
     line-height: 3.2rem;
     letter-spacing: 1px;
