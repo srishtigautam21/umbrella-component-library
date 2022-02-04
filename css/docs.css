@@ -1,0 +1,30 @@
+.content-header{
+    font-size: 4.8rem;
+    font-weight: 900;
+    line-height: 6.4rem;
+    letter-spacing: 1px;
+    /* text-align: left; */
+    color:var(--COLOR-BLACK);
+    margin-bottom:1rem;
+}
+.md-text{
+    /* font-size: rem; */
+    font-weight: 600;
+    line-height: 3.2rem;
+    letter-spacing: 1px;
+    color:var(--COLOR-SOCIAL-ICON);
+}
+.text-primary-color{
+    color:var(--COLOR-PRIMARY);
+    font-weight:bolder;
+}
+.section1{
+    margin:0 3rem 2rem 3rem;
+}
+.component-display-container{
+    background-color: var(--COLOR-WHITE);
+    border:1.5px solid var(--PRIMARY-HOVER);
+    border-radius:5px;
+    margin-top: 2rem;
+    padding:1.5rem;
+}
