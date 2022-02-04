@@ -17,9 +17,9 @@
     position:absolute;
     padding-top:3px;
 }
-.txt-badge{
-    right:-12px;
-    bottom:7px;
+.badge-over-txt{
+    right:1rem;
+    bottom:1.8rem;
 }
 .icon{
     left:3rem; bottom:2.5rem;
@@ -44,7 +44,7 @@
     border-radius: 50%;
     cursor: pointer;
 }
-.status-badge{
+.avatar-status{
     position:absolute;
     width:14px;
     height:14px;
@@ -53,12 +53,12 @@
     bottom:5px;
     border:2px solid var(--COLOR-WHITE);
 }
-.status-badge-online{
+.avatar-status-online{
     background-color: var(--ONLINE-BADGE);
 }
-.status-badge-offline{
+.avatar-status-offline{
     background-color: var(--OFFLINE-BADGE);
 }
-.status-badge-dnd{
+.avatar-status-dnd{
     background-color: var(--DND-BADGE);
 }

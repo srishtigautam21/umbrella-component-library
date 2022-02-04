@@ -45,6 +45,7 @@
 .shopping-cart-icon{
      color:var(--COLOR-PRIMARY);
      font-size: 3.6rem;
+     margin:0 2rem 0 2rem;
 }
 .shopping-cart-icon:hover{
     cursor: pointer;
@@ -53,6 +54,7 @@
 .trash-icon{
     color:var(--COLOR-SOCIAL-ICON);
     font-size: 3.4rem;
+    margin:0 2rem 0 2rem;
 }
 .trash-icon:hover{
     cursor:pointer;
@@ -62,6 +64,7 @@
     color:var(--COLOR-PRIMARY);
     font-size: 4.5rem;
     background-color: transparent;
+    margin:0 2rem 0 2rem;
 }
 .floating:hover{
     color:var(--PRIMARY-HOVER);
