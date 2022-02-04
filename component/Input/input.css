@@ -3,12 +3,14 @@
     height:22rem;
     border:1px solid var(--COLOR-BLACK);
     padding:1.5rem 0 0 2.5rem;
-
+    background-color: var(--BOX-SHADOW-LIGHTER);
+    border-radius: 1rem;
 }
 .textarea-text{
     width:35rem;
     height:15rem;
     padding:1rem 0 0 8px;
+    border-radius:5px;
 }
 .form-textarea-btn{
     width:7rem;
@@ -23,6 +25,8 @@
     height:22rem;
     border:1px solid var(--COLOR-BLACK);
     padding:1.5rem 1rem 0 2rem;
+    background-color: var(--BOX-SHADOW-LIGHTER);
+    border-radius: 1rem;
 }
 .label-font-size{
     font-weight:bold;

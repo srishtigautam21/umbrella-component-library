@@ -14,7 +14,7 @@
              Umbrella UI</div> 
        <ul class="list-non-bullets nav-pills">
            <li class="list-item-inline">
-               <a class="link nav-bold-link" href="index.html">Home</a> 
+               <a class="link nav-bold-link" href="../../index.html">Home</a> 
            </li>
            <li class="list-item-inline">
                <a class="link nav-bold-link" href="#">Documentation</a> 
@@ -46,20 +46,46 @@
             <a class="sidebar-subheading" href="/component/Image/image.html">Images</a>
             <a class="sidebar-subheading sidebar-link-active" href="/component/Input/input.html">Input</a>
         </div>
-        <section class="content-container content-wrapper">
-            <h2>Text area</h2>
-            <div class="text-area-container">
-                <textarea class="textarea-text" placeholder="Enter your message"></textarea>
-                <button class="button form-textarea-btn">Send</button>
+        <section class="content-container">
+            <div class="section1">
+                <div class="content-header">Input</div>
+                <h2>Text area</h2>
+                <div class="component-display-container">
+                    <div class="text-area-container">
+                        <textarea class="textarea-text" placeholder="Enter your message"></textarea>
+                        <button class="button form-textarea-btn">Send</button>
+                    </div>
+                </div>
+                <div class="code-snippet-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=one-dark&wt=boxy&l=htmlmixed&width=822&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=28px&ph=14px&ln=false&fl=1&fm=Hack&fs=14px&lh=138%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-area-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctextarea%2520class%253D%2522textarea-text%2522%2520placeholder%253D%2522Enter%2520your%2520message%2522%253E%253C%252Ftextarea%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520form-textarea-btn%2522%253ESend%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    style="width: 822px; height: 180px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2>Validation form</h2>
+                <div class="component-display-container">
+                    <form class="input-form">
+                        <label for="email-input" class="label-font-size">Enter your email*</label>
+                        <input type="email" placeholder="example@xyz.com" class="form-input-box email-input">
+                        <label for="password" class="label-font-size">Enter your password*</label>
+                        <input type="password" minlength="8" class="form-input-box password">
+                        <button class="button form-textarea-btn form-btn">Login</button>
+                    </form>
+                </div>
+                <div class="code-snippet-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=one-dark&wt=boxy&l=htmlmixed&width=822&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=28px&ph=14px&ln=false&fl=1&fm=Hack&fs=14px&lh=138%25&si=false&es=2x&wm=false&code=%2520%253Cform%2520class%253D%2522input-form%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522email-input%2522%2520class%253D%2522label-font-size%2522%253EEnter%2520your%2520email*%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520placeholder%253D%2522example%2540xyz.com%2522%2520class%253D%2522form-input-box%2520email-input%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%2520class%253D%2522label-font-size%2522%253EEnter%2520your%2520password*%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520minlength%253D%25228%2522%2520class%253D%2522form-input-box%2520password%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520form-textarea-btn%2520form-btn%2522%253ELogin%253C%252Fbutton%253E%250A%2520%2520%253C%252Fform%253E"
+                    style="width: 822px; height: 235px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
             </div>
-            <h2>Validation form</h2>
-            <form class="input-form">
-                <label for="email-input" class="label-font-size">Enter your email</label>
-                <input type="text" placeholder="example@xyz.com" class="form-input-box">
-                <label for="password" class="label-font-size">Enter your password</label>
-                <input type="password" class="form-input-box">
-                <button class="button form-textarea-btn form-btn">Login</button>
-            </form>
+            
+            
+            
+            
 
 
         </section>

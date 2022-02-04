@@ -12,11 +12,10 @@
 .card-container{
     display:flex;
     flex-wrap:wrap;
-    max-width:30rem;
+    max-width:25rem;
     margin:0 auto;
-    margin-top:6rem;
     background-color:var(--COLOR-WHITE);
-    box-shadow: 0px 3px 10px lightgray ;
+    box-shadow: 0px 3px 10px var(--BOX-SHADOW-LIGHTER) ;
 }
 .inside-container{
     padding:8px 10px 3px 10px;
@@ -44,9 +43,10 @@
     width:2.7rem;
     border-radius: 50%;
     padding:3px 0 0 3.5px;
+    cursor: pointer;
 }
 .icon-overlay:hover{
-    cursor: pointer;
+    
     color:var(--ALERT-ERROR-COLOR);
 }
 .card-item-cost{
@@ -77,6 +77,7 @@
 }
 .text-overlay-card{
     opacity:0.4;
+    max-width: 18rem;
 }
 .overlay-text{
     position: absolute;
@@ -87,12 +88,9 @@
     padding:1rem 1rem 1rem 1rem;
     border-radius: 4px;
 }
-.button-disable{
-    cursor:none;
-}
 .text-only-card{
     width:29rem;
-    box-shadow: 0px 3px 10px lightgray ;
+    box-shadow: 0px 3px 10px var(--BOX-SHADOW-LIGHTER) ;
     padding-bottom: 10px;
 }
 .text-card-cross{
@@ -110,5 +108,6 @@
     font-style: italic;
 }
 .card-shadow{
-    box-shadow: 0px 5px 2rem 2px var(--BOX-SHADOW);
+    box-shadow: 5px 5px 1.5rem 2px var(--BOX-SHADOW);
+    max-width:18rem;
 }
