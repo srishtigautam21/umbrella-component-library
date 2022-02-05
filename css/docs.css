@@ -1,5 +1,5 @@
 .content-header{
-    font-size: 4.8rem;
+    font-size: 4.3rem;
     font-weight: 900;
     line-height: 6.4rem;
     letter-spacing: 1px;
@@ -11,6 +11,7 @@
     line-height: 3.2rem;
     letter-spacing: 1px;
     color:var(--COLOR-SOCIAL-ICON);
+    margin-bottom: 2.5rem;
 }
 .text-primary-color{
     color:var(--COLOR-PRIMARY);
@@ -25,4 +26,5 @@
     border-radius:5px;
     margin-top: 2rem;
     padding:1.5rem;
+    max-width: 82.5rem;
 }

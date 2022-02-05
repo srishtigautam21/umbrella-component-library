@@ -19,13 +19,15 @@
 .lg-header{
     font-family: Poppins;
     font-size: 4.8rem;
-    font-weight: 600;
+    font-weight: 800;
     line-height: 7rem;
     margin-left:1rem;
 }
 .mdm-header{
     text-align: center;
-    margin-bottom:2rem;
+    margin:1rem 0 2rem 0;
+    letter-spacing: 1px;
+    line-height: 2.7rem;
 }
 .landing-page-button{
     margin-left:22rem; 
