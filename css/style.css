@@ -22,8 +22,11 @@
 .nav-brand{
     font-weight: 800;
     font-size: 4rem;
-    color:var(--COLOR-PRIMARY);
     text-shadow: 0px 5px 5px var(--BOX-SHADOW);
+}
+.component-libraryl-link{
+    text-decoration: none;
+    color:var(--COLOR-PRIMARY);
 }
 .nav-bold-link{
     font-weight: 700;
@@ -72,17 +75,18 @@
     padding-top: 2rem;
     margin-left:2rem;
     flex:0 0 auto;
-    /* height:90vh;
+    /* height:70vh;
     overflow-y:scroll; */
     /* position: fixed;
     left:0;
-    top:8.8rem; */
+    top:8.8rem;
+    z-index:2; */
 }
 .sidebar-heading{
     padding:2rem 1rem 0rem 4rem; 
 }
 .sidebar-subheading{
-    padding:2rem 1rem 1rem 4rem;
+    padding:1rem 1rem 1rem 4rem;
     text-decoration: none;
     font-size:2rem;
     font-weight: bold;

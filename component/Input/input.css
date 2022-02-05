@@ -1,7 +1,7 @@
 .text-area-container{
     max-width:40rem ;
     height:22rem;
-    border:1px solid var(--COLOR-BLACK);
+    border:0;
     padding:1.5rem 0 0 2.5rem;
     background-color: var(--BOX-SHADOW-LIGHTER);
     border-radius: 1rem;
@@ -11,6 +11,7 @@
     height:15rem;
     padding:1rem 0 0 8px;
     border-radius:5px;
+    border:0;
 }
 .form-textarea-btn{
     width:7rem;
@@ -23,7 +24,7 @@
     flex-direction: column;
     width:40rem ;
     height:22rem;
-    border:1px solid var(--COLOR-BLACK);
+    border:0;
     padding:1.5rem 1rem 0 2rem;
     background-color: var(--BOX-SHADOW-LIGHTER);
     border-radius: 1rem;
@@ -34,6 +35,8 @@
 .form-input-box{
     margin:1rem 1rem 1rem 0;
     height:3rem;
+    border:1px solid var(--BOX-SHADOW);
+    padding-left: 3px;
 }
 .form-btn{
     width:10rem;
