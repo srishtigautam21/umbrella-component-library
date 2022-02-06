@@ -1,0 +1,30 @@
+.toast{
+    display:flex;
+    column-gap: 1.5rem;
+}
+.success-toast{
+    background-color: var(--COLOR-PRIMARY);
+    color:var(--COLOR-WHITE);
+    padding:1rem 1rem 1rem 1rem;
+    border-radius: 5px;
+}
+.tick-icon{
+    margin-right: 5px;
+}
+.error-toast{
+    background-color: var(--ALERT-ERROR-COLOR);
+    color:var(--COLOR-WHITE);
+    padding:1rem 1rem 1rem 1rem;
+    border-radius: 5px;
+}
+.general-toast{
+    background-color: var(--COLOR-SOCIAL-ICON);
+    color:var(--COLOR-WHITE);
+    padding:1rem 1rem 1rem 1rem;
+    border-radius: 5px;
+}
+.cross-icon{
+    font-weight: 200;
+    cursor: pointer;
+    margin-left: 5px;
+}
