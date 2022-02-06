@@ -20,9 +20,8 @@
     text-align: right;;
 }
 .nav-brand{
-    font-weight: 800;
+    font-weight: 700;
     font-size: 4rem;
-    text-shadow: 0px 5px 5px var(--BOX-SHADOW);
 }
 .component-libraryl-link{
     text-decoration: none;
@@ -86,10 +85,10 @@
     padding:2rem 1rem 0rem 4rem; 
 }
 .sidebar-subheading{
-    padding:1rem 1rem 1rem 4rem;
+    padding:1.5rem 1rem 1rem 4rem;
     text-decoration: none;
     font-size:2rem;
-    font-weight: bold;
+    font-weight: 500;
     display:block;
     color:var(--COLOR-SOCIAL-ICON);
     scroll-behavior: auto;

@@ -7,48 +7,48 @@
 .avatar-md{
     height:10rem;
     width:10rem;
-    margin:3.9rem 2rem 0rem 2rem;
+    margin:3.9rem 2rem 0 2rem;
 }
 .avatar-sm{
     height:5rem;
     width:5rem;
-    margin:8.8rem 2rem 0rem 0rem;
+    margin:8.8rem 2rem 0 0;
 }
 .avatar-xs{
     height:3rem;
     width:3rem;
-    margin:10.8rem 2rem 0rem 0rem;
+    margin:10.8rem 2rem 0 0;
 }
 .lg-text-avatar{
     background-color:var(--COLOR-PRIMARY);
     font-size: 4.8rem;
-    font-weight: 700;
+    font-weight: 500;
     text-align: center;
     padding-top: 4rem;
 }
 .md-text-avatar{
     background-color:var(--COLOR-PRIMARY);
     font-size: 3.2rem;
-    font-weight: 600;
+    font-weight: 500;
     text-align: center;
     padding-top: 3rem;
-    margin:2rem 2rem 0rem 2rem;
+    margin:2rem 2rem 0 2rem;
 }
 .sm-text-avatar{
     background-color:var(--COLOR-PRIMARY);
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 500;
     text-align: center;
     padding-top: 1.2rem;
-    margin:4.5rem 2rem 0rem 0rem;
+    margin:4.5rem 2rem 0 0;
 }
 .xs-text-avatar{
     background-color:var(--COLOR-PRIMARY);
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight: 500;
     text-align: center;
     padding-top:6px;
-    margin:5.5rem 0rem 0rem 0rem;
+    margin:5.5rem 0 0 0;
 }
 .avatar{
     border-radius: 50%;

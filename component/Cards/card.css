@@ -97,11 +97,16 @@
     position:absolute;
     top:1rem;
     right:1rem;
+    cursor:pointer;
 }
 .text-card-heart{
     position:absolute;
     top:1rem;
     left:1rem;
+    cursor: pointer;
+}
+.text-card-heart:hover{
+    color:var(--ALERT-ERROR-COLOR);
 }
 .quote{
     padding:3rem 5px 5px 5px;
