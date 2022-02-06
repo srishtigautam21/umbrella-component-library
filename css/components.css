@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 @import url('../css/reset-css.css');
@@ -9,6 +9,7 @@
 @import url('../component/Cards/card.css');
 @import url('../component/Image/image.css');
 @import url('../component/Input/input.css');
+@import url('../component/Toast/toast.css');
 @import url('../css/landingPage.css');
 @import url('../css/docs.css');
 @import url('../css/style.css');
