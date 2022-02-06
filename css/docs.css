@@ -1,6 +1,6 @@
 .content-header{
     font-size: 4.3rem;
-    font-weight: 900;
+    font-weight: 700;
     line-height: 6.4rem;
     letter-spacing: 1px;
     color:var(--COLOR-BLACK);
@@ -27,4 +27,18 @@
     margin-top: 2rem;
     padding:1.5rem;
     max-width: 82.5rem;
+}
+.flex-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+.footer-link{
+    text-decoration: none;
+    color:var(--COLOR-BLACK);
+    font-size: 2rem;
+}
+.footer-link:hover{
+    color:var(--PRIMARY-HOVER);
 }
