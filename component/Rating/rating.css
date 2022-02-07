@@ -1,0 +1,9 @@
+.rating-container{
+   display:flex;
+   column-gap: 3rem;
+   width:82rem;
+}
+.checked{
+    color:var(--ALERT-WARNING-COLOR);
+    cursor:pointer;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toast-UI</title>
+    <title>Rating-UI</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/components.css">
 </head>
@@ -46,32 +46,34 @@
             <a class="sidebar-subheading" href="/component/Image/image.html">Images</a>
             <a class="sidebar-subheading" href="/component/Input/input.html">Input</a>
             <a class="sidebar-subheading" href="/component/Navigation/navigation.html">Navigation</a>
-            <a class="sidebar-subheading" href="/component/Rating/rating.html">Rating</a>
-            <a class="sidebar-subheading sidebar-link-active" href="/component/Toast/toast.html">Toast</a>
+            <a class="sidebar-subheading sidebar-link-active" href="/component/Rating/rating.html">Rating</a>
+            <a class="sidebar-subheading" href="/component/Toast/toast.html">Toast</a>
         </div>
         <section class="content-container">
             <div class="section1">
-                <div class="content-header">Toast</div>
-                <p class="md-text">Toast can be used to show success messages, warnings or errors.
-                    They usually stay on the screen for 2-3 seconds and then disappear.</p>
-                <div class="component-display-container">
-                    <div class="toast">
-                        <div class="success-toast"><i class="fa fa-check tick-icon"></i>Added to cart</div>
-                        <div class="error-toast">Item removed from cart</div>
-                        <div class="general-toast">Saving photos...<i class="fa fa-times cross-icon"></i></div>
+                <div class="content-header">Rating</div>
+                <p class="md-text">Rating components is mostly used in review section of a website.</p>
+                <div class="component-display-container rating-container">
+                    <div>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
                     </div>
+                    <div class="badge-rating">4.5 <span class="fa fa-star checked"></span>/5</div>
                 </div>
                 <div class="code-snippet-container">
                     <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=one-dark&wt=boxy&l=htmlmixed&width=822&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=28px&ph=14px&ln=false&fl=1&fm=Hack&fs=14px&lh=138%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%253C%21--%2522toast%2522is%2520the%2520container-class%2520for%2520single%2520toast%2520use%2520only%2520their%2520class%2520name--%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522success-toast%2522%253E%253Ci%2520class%253D%2522fa%2520fa-check%2520tick-icon%2522%253E%253C%252Fi%253EAdded%2520to%2520cart%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522error-toast%2522%253EItem%2520removed%2520from%2520cart%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522general-toast%2522%253ESaving%2520photos...%253Ci%2520class%253D%2522fa%2520fa-times%2520cross-icon%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520"
-                    style="width: 822px; height: 240px; border:0; transform: scale(1); overflow:hidden;"
+                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=one-dark&wt=boxy&l=htmlmixed&width=822&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=28px&ph=14px&ln=false&fl=1&fm=Hack&fs=14px&lh=138%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-rating%2522%253E4.5%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%252F5%253C%252Fdiv%253E%250A%2520%2520"
+                    style="width: 822px; height: 275px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                  </iframe> 
                 </div>
                 <footer class="flex-footer">
-                    <a class="footer-link" href="/component/Rating/rating.html"><i class="fa fa-hand-o-left"></i>Ratings</a>
+                    <a class="footer-link" href="/component/Navigation/navigation.html"><i class="fa fa-hand-o-left"></i>Navigation</a>
+                    <a class="footer-link" href="/component/Toast/toast.html">Toast<i class="fa fa-hand-o-right"></a></i>
                 </footer>
-
             </div>
         </section>
     </main>
