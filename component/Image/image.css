@@ -1,7 +1,7 @@
 .responsive-image img{
     width:100%;
     height:auto;
-    max-width:50vw;
+    max-width:70vw ;
     object-fit: cover;
 }
 .square-image img{
