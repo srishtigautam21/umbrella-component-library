@@ -22,8 +22,8 @@
 .input-form{
     display:flex;
     flex-direction: column;
-    width:40rem ;
-    height:22rem;
+    max-width:40rem ;
+    min-height:22rem;
     border:0;
     padding:1.5rem 1rem 0 2rem;
     background-color: var(--BOX-SHADOW-LIGHTER);
