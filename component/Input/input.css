@@ -32,11 +32,17 @@
 .label-font-size{
     font-weight:500;
 }
+.label-color{
+    color:var(--ALERT-ERROR-COLOR);
+}
 .form-input-box{
     margin:1rem 1rem 1rem 0;
     height:3rem;
     border:1px solid var(--BOX-SHADOW);
     padding-left: 3px;
+}
+.error-input{
+    border:1px solid var(--ALERT-ERROR-COLOR);
 }
 .form-btn{
     width:10rem;
