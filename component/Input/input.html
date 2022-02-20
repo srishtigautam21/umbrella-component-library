@@ -74,7 +74,7 @@
                         <input type="email" placeholder="example@xyz.com" class="form-input-box email-input">
                         <label for="password" class="label-font-size">Enter your password*</label>
                         <input type="password" minlength="8" class="form-input-box password">
-                        <button class="button form-textarea-btn form-btn">Login</button>
+                        <button class="button form-textarea-btn form-btn" type="submit">Login</button>
                     </form>
                 </div>
                 <div class="code-snippet-container">
@@ -84,11 +84,29 @@
                     sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
+                <h2>Validation form with error</h2>
+                <div class="component-display-container">
+                    <form class="input-form">
+                        <label for="email-input" class="label-font-size label-color">Enter your email*</label>
+                        <input type="email" placeholder="example@xyz.com" class="form-input-box error-input" id="email-input">
+                        <label for="password" class="label-font-size label-color">Enter your password*</label>
+                        <input type="password" minlength="8" class="form-input-box password  error-input">
+                        <button class="button form-textarea-btn form-btn" type="submit">Login</button>
+                    </form>
+                </div>
+                <div class="code-snippet-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=one-dark&wt=boxy&l=htmlmixed&width=822&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=28px&ph=14px&ln=false&fl=1&fm=Hack&fs=14px&lh=138%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522input-form%2522%253E%250A%2520%2520%2520%253Clabel%2520for%253D%2522email-input%2522%2520class%253D%2522label-font-size%2520label-color%2522%253EEnter%2520your%2520email*%253C%252Flabel%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520placeholder%253D%2522example%2540xyz.com%2522%2520class%253D%2522form-input-box%2520error-input%2522%253E%250A%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%2520class%253D%2522label-font-size%2520label-color%2522%253EEnter%2520your%2520password*%253C%252Flabel%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520minlength%253D%25228%2522%2520class%253D%2522form-input-box%2520password%2520%2520error-input%2522%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520form-textarea-btn%2520form-btn%2522%253ELogin%253C%252Fbutton%253E%250A%253C%252Fform%253E%250A"
+                    style="width: 822px; height: 255px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                   </iframe>
+                </div>
                 <footer class="flex-footer">
                     <a class="footer-link" href="/component/Image/image.html"><i class="fa fa-hand-o-left"></i>Images</a>
                     <a class="footer-link" href="/component/Navigation/navigation.html">Navigation<i class="fa fa-hand-o-right"></a></i>
                 </footer>
             </div>
+
         </section>
 
 
