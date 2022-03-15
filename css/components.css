@@ -12,7 +12,9 @@
 @import url('../component/Toast/toast.css');
 @import url('../component/Rating/rating.css');
 @import url('../component/Navigation/navigation.css');
+@import url('../component/Modal/modal.css');
 @import url('../css/landingPage.css');
+@import url('../css/utility.css');
 @import url('../css/docs.css');
 @import url('../css/style.css');
 
