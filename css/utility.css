@@ -1,8 +1,14 @@
 .flex-items{
     display:flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .flex-column{
     flex-direction: column;
+}
+.flex{
+    display:flex;
+}
+.s-pd{
+    padding:1.5rem;
 }
