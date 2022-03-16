@@ -7,3 +7,18 @@
 .unordered-list{
     column-gap: 5rem;
 }
+.alphabet-order-list{
+    list-style-type: lower-alpha;
+}
+.ordered-list{
+    column-gap: 5rem;
+}
+.roman-order-list{
+    list-style-type: lower-roman;
+}
+.list-style-none{
+    list-style:none;
+}
+.bg{
+    background-color: var(--COLOR-SECONDARY);
+}
