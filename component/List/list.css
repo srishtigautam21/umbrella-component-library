@@ -1,0 +1,9 @@
+.list-style-not-filled{
+    list-style-type: circle;
+}
+.list-style-square{
+    list-style-type:square;
+}
+.unordered-list{
+    column-gap: 5rem;
+}
