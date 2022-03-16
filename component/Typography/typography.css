@@ -1,0 +1,9 @@
+.typography-h1{
+    font-size: 2em;
+}
+.grey-txt{
+    color:var(--BOX-SHADOW);
+}
+.para-txt{
+    column-gap: 5rem;
+}
