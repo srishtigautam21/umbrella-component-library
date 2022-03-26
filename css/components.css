@@ -1,54 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url("../css/reset-css.css");
+@import url("../component/Alert/alert.css");
+@import url("../component/Badges/badge.css");
+@import url("../component/Avatar/avatar.css");
+@import url("../component/Buttons/button.css");
+@import url("../component/Cards/card.css");
+@import url("../component/Image/image.css");
+@import url("../component/Input/input.css");
+@import url("../component/Toast/toast.css");
+@import url("../component/Rating/rating.css");
+@import url("../component/Navigation/navigation.css");
+@import url("../component/Modal/modal.css");
+@import url("../component/List/list.css");
+@import url("../component/Typography/typography.css");
+@import url("../component/Grids/grid.css");
+@import url("../css/landingPage.css");
+@import url("../css/utility.css");
+@import url("../css/docs.css");
+@import url("../css/style.css");
 
-@import url('../css/reset-css.css');
-@import url('../component/Alert/alert.css');
-@import url('../component/Badges/badge.css');
-@import url('../component/Avatar/avatar.css');
-@import url('../component/Buttons/button.css');
-@import url('../component/Cards/card.css');
-@import url('../component/Image/image.css');
-@import url('../component/Input/input.css');
-@import url('../component/Toast/toast.css');
-@import url('../component/Rating/rating.css');
-@import url('../component/Navigation/navigation.css');
-@import url('../component/Modal/modal.css');
-@import url('../component/List/list.css');
-@import url('../component/Typography/typography.css');
-@import url('../css/landingPage.css');
-@import url('../css/utility.css');
-@import url('../css/docs.css');
-@import url('../css/style.css');
-
-
-:root{
-    --COLOR-PRIMARY:#16a34a;
-    --COLOR-SECONDARY:#bbf7d0;
-    --COLOR-SOCIAL-ICON:#475569;
-    --PRIMARY-HOVER:#15803d;
-    --NOTIFICATION-COLOR:#f97316;
-    --offgreen:#f0fdf4;
-    --darkerofseconadary:#86efac;
-    --BOX-SHADOW:rgb(199, 194, 194);
-    --BOX-SHADOW-LIGHTER:rgb(211, 211, 211);
-    --ALERT-PRIMARY-COLOR:#2563eb;
-    --ALERT-SUCCESS-COLOR:rgb(13, 224, 31);
-    --ALERT-ERROR-COLOR:rgb(231, 34, 34);
-    --ALERT-WARNING-COLOR:rgb(248, 203, 3);
-    --COLOR-WHITE:rgb(255, 255, 255);
-    --LINK:#3b82f6;
-    --LINK-HOVER:#2563eb;
-    --COLOR-BLACK:rgb(14, 13, 13);
-    --ONLINE-BADGE:rgb(0, 128, 0);
-    --DND-BADGE:rgb(255, 0, 0);
-    --OFFLINE-BADGE:rgb(112, 112, 112);
-    --BACKGROUND-BODY-COLOR:#f9fafb;
-    font-size: 62.5%;
+:root {
+  --COLOR-PRIMARY: #16a34a;
+  --COLOR-SECONDARY: #bbf7d0;
+  --COLOR-SOCIAL-ICON: #475569;
+  --PRIMARY-HOVER: #15803d;
+  --NOTIFICATION-COLOR: #f97316;
+  --offgreen: #f0fdf4;
+  --darkerofseconadary: #86efac;
+  --BOX-SHADOW: rgb(199, 194, 194);
+  --BOX-SHADOW-LIGHTER: rgb(211, 211, 211);
+  --ALERT-PRIMARY-COLOR: #2563eb;
+  --ALERT-SUCCESS-COLOR: rgb(13, 224, 31);
+  --ALERT-ERROR-COLOR: rgb(231, 34, 34);
+  --ALERT-WARNING-COLOR: rgb(248, 203, 3);
+  --COLOR-WHITE: rgb(255, 255, 255);
+  --LINK: #3b82f6;
+  --LINK-HOVER: #2563eb;
+  --COLOR-BLACK: rgb(14, 13, 13);
+  --ONLINE-BADGE: rgb(0, 128, 0);
+  --DND-BADGE: rgb(255, 0, 0);
+  --OFFLINE-BADGE: rgb(112, 112, 112);
+  --BACKGROUND-BODY-COLOR: #f9fafb;
+  font-size: 62.5%;
 }
-body{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.6rem;
-    background-color:VAR(--BACKGROUND-BODY-COLOR) ;
-
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  background-color: VAR(--BACKGROUND-BODY-COLOR);
 }
-
