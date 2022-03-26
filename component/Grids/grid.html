@@ -100,10 +100,93 @@
       </div>
       <section class="content-container content-wrapper">
         <div class="section1">
-            <div class="content-header">Cards</div>
-            <p class="md-text">Cards are great for organizing and enhancing a website's user interface. 
-                A card should be designed in such a way to make it easy for users to read the card content.</p>
-            <h2>Vertical Card with badges & dismiss</h2>
+          <div class="content-header">Grids</div>
+          <p class="md-text">
+            CSS Grid Layout is a two-dimensional layout system for the web. It
+            lets you lay content out in rows and columns both.
+          </p>
+          <h2>Two column layout</h2>
+          <div class="component-display-container">
+            <div class="grid-container row-1-col-2">
+              <div class="col-1-color txt-center s-pd">
+                Hi!! I am column one
+              </div>
+              <div class="col-2-color txt-center s-pd">
+                Hi!! I am column two
+              </div>
+            </div>
+          </div>
+          <div class="code-snippet-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=one-dark&wt=boxy&l=htmlmixed&width=822&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=28px&ph=14px&ln=false&fl=1&fm=Hack&fs=14px&lh=138%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-container%2520row-1-col-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522col-1-color%2520txt-center%2520s-pd%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Hi%21%21%2520I%2520am%2520column%2520one%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522col-2-color%2520txt-center%2520s-pd%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Hi%21%21%2520I%2520am%2520column%2520two%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              style="
+                width: 822px;
+                height: 255px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <h2>Three column layout</h2>
+          <div class="component-display-container">
+            <div class="grid-container row-1-col-3">
+              <div class="col-1-color txt-center s-pd">
+                Hi!! I am column one
+              </div>
+              <div class="col-2-color txt-center s-pd">
+                Hi!! I am column two
+              </div>
+              <div class="col-1-color txt-center s-pd">
+                Hi!! I am column three
+              </div>
+            </div>
+          </div>
+          <div class="code-snippet-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=one-dark&wt=boxy&l=htmlmixed&width=822&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=28px&ph=14px&ln=false&fl=1&fm=Hack&fs=14px&lh=138%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-container%2520row-1-col-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522col-1-color%2520txt-center%2520s-pd%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Hi%21%21%2520I%2520am%2520column%2520one%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522col-2-color%2520txt-center%2520s-pd%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Hi%21%21%2520I%2520am%2520column%2520two%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522col-3-color%2520txt-center%2520s-pd%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Hi%21%21%2520I%2520am%2520column%2520three%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              style="
+                width: 822px;
+                height: 320px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <h2>Holy Grail Layout</h2>
+          <div class="component-display-container">
+            <div class="holy-grail-layout">
+              <div class="header col-2-color txt-center s-pd">Header</div>
+              <div class="aside col-1-color txt-center s-pd">Sidebar</div>
+              <div class="main col-3-color txt-center s-pd">Main</div>
+              <div class="foot col-2-color txt-center s-pd">Footer</div>
+            </div>
+          </div>
+          <div class="code-snippet-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=one-dark&wt=boxy&l=htmlmixed&width=822&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=28px&ph=14px&ln=false&fl=1&fm=Hack&fs=14px&lh=138%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522holy-grail-layout%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header%2520col-2-color%2520txt-center%2520s-pd%2522%253EHeader%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522aside%2520col-1-color%2520txt-center%2520s-pd%2522%253ESidebar%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main%2520col-3-color%2520txt-center%2520s-pd%2522%253EMain%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522foot%2520col-2-color%2520txt-center%2520s-pd%2522%253EFooter%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              style="
+                width: 822px;
+                height: 220px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <footer class="flex-footer">
+            <a class="footer-link" href="/component/Cards/card.html"><i class="fa fa-hand-o-left"></i>Cards</a>
+            <a class="footer-link" href="/component/Image/image.html">Images<i class="fa fa-hand-o-right"></a></i>
+        </footer>
+        </div>
+      </section>
     </main>
   </body>
 </html>
