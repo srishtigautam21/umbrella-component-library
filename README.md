@@ -20,11 +20,15 @@ Copy and the paste the below link in the head tag of your HTML document
 - Badges
 - Button
 - Cards
+- Grids
 - Input
 - Images
+- Lists
+- Modal
 - Navigation
 - Ratings
 - Toast
+- Typography
 
 ## Live link-
 Documentation site - [Umbrella](https://umbrella-ui.netlify.app/)

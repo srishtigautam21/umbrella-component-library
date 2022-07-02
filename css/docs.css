@@ -36,8 +36,8 @@
 }
 .footer-link{
     text-decoration: none;
-    color:var(--COLOR-BLACK);
     font-size: 2rem;
+    color:var(--COLOR-BLACK);
 }
 .footer-link:hover{
     color:var(--PRIMARY-HOVER);
