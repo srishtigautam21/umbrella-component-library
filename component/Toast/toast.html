@@ -1,80 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Toast-UI</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/components.css">
-</head>
-<body>
+    <link rel="icon" type="image/x-icon" href="../../Assets/favicon/favicon.ico">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/css/components.css" />
+  </head>
+  <body>
     <nav class="navigation nav-container">
-        <div class="nav-brand"><img src="../../Assets/Images/logo.svg" alt="logo">
-            <a class="component-libraryl-link" href="../../index.html">Umbrella UI</a></div> 
-       <ul class="list-non-bullets nav-pills">
-           <li class="list-item-inline">
-               <a class="link nav-bold-link" href="../../index.html">Home</a> 
-           </li>
-           <li class="list-item-inline">
-               <a class="link nav-bold-link" href="#">Documentation</a> 
-           </li>
-            <li class="list-item-inline">
-               <a class="link" href="https://github.com/srishtigautam21">
-                   <i class="fa fa-github social-icons"></i></a>
-            </li>
-            <li class="list-item-inline" >
-                <a class="link" href="https://www.linkedin.com/in/srishti-gautam-385861190/">
-                    <i class="fa fa-linkedin-square social-icons"></i></a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="https://twitter.com/SrishtiGautam99">
-                    <i class="fa fa-twitter social-icons"></i></a>
-            </li>
-        </ul>
+      <div class="nav-brand">
+        <div class="nav-brand"><img src="../../Assets/favicon/umbrella-32.png" alt="logo">
+        <a class="component-libraryl-link" href="../../index.html"
+          >Umbrella UI</a
+        >
+      </div>
+      <ul class="list-non-bullets nav-pills">
+        <li class="list-item-inline">
+          <a class="link nav-bold-link" href="../../index.html">Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link nav-bold-link" href="#">Documentation</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/srishtigautam21">
+            <i class="fa fa-github social-icons"></i
+          ></a>
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/srishti-gautam-385861190/"
+          >
+            <i class="fa fa-linkedin-square social-icons"></i
+          ></a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/SrishtiGautam99">
+            <i class="fa fa-twitter social-icons"></i
+          ></a>
+        </li>
+      </ul>
     </nav>
     <main class="main-container">
-        <div class="side-bar">
-            <h2 class="sidebar-heading">Getting Started</h2>
-            <a class="sidebar-subheading" href="../../docs.html">Installation</a>
-            <h2 class="sidebar-heading">Components</h2>
-            <a class="sidebar-subheading" href="/component/Buttons/button.html">Buttons</a>
-            <a class="sidebar-subheading" href="/component/Badges/badge.html">Badges</a>
-            <a class="sidebar-subheading" href="/component/Alert/alert.html">Alert</a>
-            <a class="sidebar-subheading" href="/component/Avatar/avatar.html">Avatar</a>
-            <a class="sidebar-subheading" href="/component/Cards/card.html">Cards</a>
-            <a class="sidebar-subheading" href="/component/Image/image.html">Images</a>
-            <a class="sidebar-subheading" href="/component/Input/input.html">Input</a>
-            <a class="sidebar-subheading" href="/component/Navigation/navigation.html">Navigation</a>
-            <a class="sidebar-subheading" href="/component/Rating/rating.html">Rating</a>
-            <a class="sidebar-subheading sidebar-link-active" href="/component/Toast/toast.html">Toast</a>
-        </div>
-        <section class="content-container">
-            <div class="section1">
-                <div class="content-header">Toast</div>
-                <p class="md-text">Toast can be used to show success messages, warnings or errors.
-                    They usually stay on the screen for 2-3 seconds and then disappear.</p>
-                <div class="component-display-container">
-                    <div class="toast">
-                        <div class="success-toast"><i class="fa fa-check tick-icon"></i>Added to cart</div>
-                        <div class="error-toast">Item removed from cart</div>
-                        <div class="general-toast">Saving photos...<i class="fa fa-times cross-icon"></i></div>
-                    </div>
-                </div>
-                <div class="code-snippet-container">
-                    <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=one-dark&wt=boxy&l=htmlmixed&width=822&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=28px&ph=14px&ln=false&fl=1&fm=Hack&fs=14px&lh=138%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%253C%21--%2522toast%2522is%2520the%2520container-class%2520for%2520single%2520toast%2520use%2520only%2520their%2520class%2520name--%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522success-toast%2522%253E%253Ci%2520class%253D%2522fa%2520fa-check%2520tick-icon%2522%253E%253C%252Fi%253EAdded%2520to%2520cart%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522error-toast%2522%253EItem%2520removed%2520from%2520cart%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522general-toast%2522%253ESaving%2520photos...%253Ci%2520class%253D%2522fa%2520fa-times%2520cross-icon%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520"
-                    style="width: 822px; height: 240px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-                <footer class="flex-footer">
-                    <a class="footer-link" href="/component/Rating/rating.html"><i class="fa fa-hand-o-left"></i>Ratings</a>
-                </footer>
-
+      <div class="side-bar">
+        <h2 class="sidebar-heading">Getting Started</h2>
+        <a class="sidebar-subheading" href="../../docs.html">Installation</a>
+        <h2 class="sidebar-heading">Components</h2>
+        <a class="sidebar-subheading" href="/component/Buttons/button.html"
+          >Buttons</a
+        >
+        <a class="sidebar-subheading" href="/component/Badges/badge.html"
+          >Badges</a
+        >
+        <a class="sidebar-subheading" href="/component/Alert/alert.html"
+          >Alert</a
+        >
+        <a class="sidebar-subheading" href="/component/Avatar/avatar.html"
+          >Avatar</a
+        >
+        <a class="sidebar-subheading" href="/component/Cards/card.html"
+          >Cards</a
+        >
+        <a class="sidebar-subheading" href="/component/Image/image.html"
+          >Images</a
+        >
+        <a class="sidebar-subheading" href="/component/Input/input.html"
+          >Input</a
+        >
+        <a
+          class="sidebar-subheading"
+          href="/component/Navigation/navigation.html"
+          >Navigation</a
+        >
+        <a class="sidebar-subheading" href="/component/Rating/rating.html"
+          >Rating</a
+        >
+        <a
+          class="sidebar-subheading sidebar-link-active"
+          href="/component/Toast/toast.html"
+          >Toast</a
+        >
+      </div>
+      <section class="content-container">
+        <div class="section1">
+          <div class="content-header">Toast</div>
+          <p class="md-text">
+            Toast can be used to show success messages, warnings or errors. They
+            usually stay on the screen for 2-3 seconds and then disappear.
+          </p>
+          <div class="component-display-container">
+            <div class="toast">
+              <div class="success-toast">
+                <i class="fa fa-check tick-icon"></i>Added to cart
+              </div>
+              <div class="error-toast">Item removed from cart</div>
+              <div class="general-toast">
+                Saving photos...<i class="fa fa-times cross-icon"></i>
+              </div>
             </div>
-        </section>
+          </div>
+          <div class="code-snippet-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=one-dark&wt=boxy&l=htmlmixed&width=822&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=28px&ph=14px&ln=false&fl=1&fm=Hack&fs=14px&lh=138%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%253C%21--%2522toast%2522is%2520the%2520container-class%2520for%2520single%2520toast%2520use%2520only%2520their%2520class%2520name--%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522success-toast%2522%253E%253Ci%2520class%253D%2522fa%2520fa-check%2520tick-icon%2522%253E%253C%252Fi%253EAdded%2520to%2520cart%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522error-toast%2522%253EItem%2520removed%2520from%2520cart%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522general-toast%2522%253ESaving%2520photos...%253Ci%2520class%253D%2522fa%2520fa-times%2520cross-icon%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520"
+              style="
+                width: 822px;
+                height: 240px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <footer class="flex-footer">
+            <a class="footer-link" href="/component/Rating/rating.html"
+              ><i class="fa fa-hand-o-left"></i>Ratings</a
+            >
+          </footer>
+        </div>
+      </section>
     </main>
-    
-</body>
+  </body>
 </html>
