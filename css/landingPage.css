@@ -1,34 +1,45 @@
-.doc-text-color{
-    color:var(--COLOR-WHITE);
+.doc-text-color {
+  color: var(--COLOR-WHITE);
 }
-.github-text-color{
-    color:var(--COLOR-PRIMARY);
+.github-text-color {
+  color: var(--COLOR-PRIMARY);
 }
-.github-text-color:hover{
-    color:var(--COLOR-WHITE);
+.github-text-color:hover {
+  color: var(--COLOR-WHITE);
 }
-.button-hover{
-    color:var(--COLOR-WHITE);
+.button-hover {
+  color: var(--COLOR-WHITE);
 }
-.landing-page-container{
-    margin:20rem 10rem 5rem 21.5rem;
-    width:100%;
-    max-width:85rem;
-    height: auto;
+.landing-page-container {
+  /* margin: 9rem 10rem 5rem 21.5rem; */
+  padding: 3rem 0rem;
+  width: 100%;
+  max-width: 85rem;
+  height: auto;
 }
-.lg-header{
-    font-size: 4.5rem;
-    font-weight: 800;
-    line-height: 7rem;
-    margin-left:1.5rem;
+.lg-header {
+  font-size: 4.5rem;
+  font-weight: 800;
+  line-height: 7rem;
+  margin-left: 1.5rem;
 }
-.md-header{
-    text-align: center;
-    margin:1rem 0 2rem 0;
-    letter-spacing: 1px;
-    line-height: 2.7rem;
-    color:var(--COLOR-SOCIAL-ICON);
+.md-header {
+  text-align: center;
+  margin: 1rem 0 2rem 0;
+  letter-spacing: 1px;
+  line-height: 2.7rem;
+  color: var(--COLOR-SOCIAL-ICON);
 }
-.landing-page-button{
-    margin-left:22rem; 
+.landing-page-button {
+  margin-left: 22rem;
+}
+.hero-icon {
+  display: block;
+  margin: auto;
+}
+
+.landingpage-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
